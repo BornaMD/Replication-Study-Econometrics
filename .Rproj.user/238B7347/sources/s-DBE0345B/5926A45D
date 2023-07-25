@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544091473174.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5926A45D",
+    "lastKnownWriteTime" : 13229676095799345,
+    "last_content_update" : 1544091473174,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "f8f9e4f69add4819ba34bc33a820458b",
+        "name" : "tables",
+        "title" : "tables"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

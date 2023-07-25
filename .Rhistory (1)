@@ -1,0 +1,512 @@
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(foreign)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(nobs(na.omit(x)))
+return(sd(na.omit(x)))
+return(summary(na.omit(x)))
+}
+regr_s <- function(x) {
+return(x)
+return(summary(x))
+return(lenght(x$fitted.values))
+return(x$coefficients)
+}
+sum_s(data$ageyr)
+#Emptying Workspace
+detach()
+rm(list=ls())
+txtStop()
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(foreign)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(nobs(na.omit(x)))
+return(sd(na.omit(x)))
+return(summary(na.omit(x)))
+}
+regr_s <- function(x) {
+return(x)
+return(summary(x))
+return(lenght(x$fitted.values))
+return(x$coefficients)
+}
+sum_s(data4)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(foreign)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(length(na.omit(x)))
+return(sd(na.omit(x)))
+return(summary(na.omit(x)))
+}
+regr_s <- function(x) {
+return(x)
+return(summary(x))
+return(lenght(x$fitted.values))
+return(x$coefficients)
+}
+sum_s(data4)
+txtStop()
+txtStop()
+txtStop()
+txtStop()
+txtStop()
+txtStop()
+txtStop()
+summary(data4)
+sd(data4)
+sd(data4$agriculture_top)
+count(data4$time=1)
+lenght(data4$time=1)
+nobs(data4$time=1)
+summary(data4$time)
+summary(data4$time(if(data4$time=1)))
+summary(data4$time(if(data4$time=1))))
+summary(data4$time(if(data4$time=1))))
+summary(data4$time))
+summary(data4$time)
+sum_s(data4$time)
+desc(data4)
+view(desc(data4))
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(foreign)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x))),
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(foreign)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read.dta("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(c(("#obs"+ length(na.omit(x))),
+"std"(sd(na.omit(x))),
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+# Defining Functions
+sum_s <- function(x) {
+return(c((print("#obs")+ length(na.omit(x))),
+print("std")(sd(na.omit(x))),
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+# Defining Functions
+sum_s <- function(x) {
+return(c(c(print("#obs"), length(na.omit(x))),
+c(print("std")(sd(na.omit(x)))),
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(haven)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read_stata("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+View(data4)
+View(data4)
+sum_s(data4$time)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(haven)
+library(carData)
+library(car)
+#Loading Data
+data4 <- read_stata("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+sum_s(data4$time)
+barplot(height = data['ward'])
+counts <- table(data['ward'])
+barplot(counts, main="wardNum", ylab="Frequency")
+#Emptying Workspace
+detach()
+barplot(height = data4['ward'])
+counts <- table(data4['ward'])
+barplot(counts, main="wardNum", ylab="Frequency")
+install.packages("wooldridge")
+library(wooldridge)
+install.packages("econometrics")
+# the graph
+# x = the four categories of type of work, called time because of the reshape command
+# y = the variable to plot, value
+# group, fill = split the bars by Period, and color them in different colors
+# stat_summary = use a bar chart, place them next to each other (dodge), and give some function to y (doesn't matter which)
+# xlab, ylab, controls titles of x axis and y axis
+ggplot(mydata.agg, aes(x = time, y = value, group = Period, fill = Period)) +
+stat_summary(geom = "bar", position = "dodge", fun.y = sum) +
+xlab("Type of Work") +
+ylab("N")
+rm(list=ls())
+# packages you will need for this script
+library(foreign)
+library(dplyr)
+library(ggplot2)
+# import the file
+mydata <- read.dta("paper4.dta")
+# aggregate the data into a new object
+# for each time point (0, 1), sum the four variables
+mydata.agg <- mydata %>%
+group_by(time) %>%
+summarise(agriculture_top = sum(agriculture_top, na.rm = T),
+selfemployment_top = sum(selfemployment_top, na.rm = T),
+employee_top = sum(employee_top, na.rm = T),
+farming_livestock = sum(farming_livestock, na.rm = T))
+# the next command will create a variable called time,
+# so here I rename time to Period to prevent errors
+# I use a capital P (Period and not period) so that it looks nicer in the graph later on
+mydata.agg <- rename(mydata.agg, "Period" = "time")
+# Currently we have the period variable and four variables of type of work
+# ggplot2 requires type of work to be one single variable
+# to do so, we reshape the data from wide (four variables) to long (one variable)
+# varying = which variables to change (in this case, all but the first column)
+# times = what categories to use in the new variable, use capital letters and spacing so it looks nice in the graph
+# v.names = the name of the new numeric variable, I just chose value
+# as.data.frame() is important. The previous commands store the object as a tibble. reshape only works with data.frames.
+mydata.agg <- reshape(as.data.frame(mydata.agg),
+direction = "long",
+idvar = "Period",
+varying = colnames(mydata.agg)[-1],
+v.names = "value",
+times = c("Agriculture","Self Employment","Employee","Farming"))
+# Rather than use 0, 1 in the graph, change the labels to something meaningful
+mydata.agg$Period <- factor(mydata.agg$Period,
+levels = c(0,1),
+labels = c("Pre","Post"))
+# This is category variable created in the reshape command, called time.
+# If you want to control the order of the categories in the graph, edit their order in levels
+mydata.agg$time <- factor(mydata.agg$time,
+levels = c("Agriculture","Self Employment","Employee","Farming"))
+# the graph
+# x = the four categories of type of work, called time because of the reshape command
+# y = the variable to plot, value
+# group, fill = split the bars by Period, and color them in different colors
+# stat_summary = use a bar chart, place them next to each other (dodge), and give some function to y (doesn't matter which)
+# xlab, ylab, controls titles of x axis and y axis
+ggplot(mydata.agg, aes(x = time, y = value, group = Period, fill = Period)) +
+stat_summary(geom = "bar", position = "dodge", fun.y = sum) +
+xlab("Type of Work") +
+ylab("N")
+rm(list=ls())
+# packages you will need for this script
+library(foreign)
+library(dplyr)
+library(ggplot2)
+# import the file
+mydata <- read.dta("paper4.dta")
+# aggregate the data into a new object
+# for each time point (0, 1), sum the four variables
+mydata.agg <- mydata %>%
+group_by(time) %>%
+summarise(agriculture_top = sum(agriculture_top, na.rm = T),
+selfemployment_top = sum(selfemployment_top, na.rm = T),
+employee_top = sum(employee_top, na.rm = T),
+farming_livestock = sum(farming_livestock, na.rm = T),
+trade = sum(trade, na.rm = T),
+professional = sum(professional, na.rm = T),
+government = sum(government, na.rm = T),
+retirement = sum(retirement, na.rm = T))
+# the next command will create a variable called time,
+# so here I rename time to Period to prevent errors
+# I use a capital P (Period and not period) so that it looks nicer in the graph later on
+mydata.agg <- rename(mydata.agg, "Period" = "time")
+# Currently we have the period variable and four variables of type of work
+# ggplot2 requires type of work to be one single variable
+# to do so, we reshape the data from wide (four variables) to long (one variable)
+# varying = which variables to change (in this case, all but the first column)
+# times = what categories to use in the new variable, use capital letters and spacing so it looks nice in the graph
+# v.names = the name of the new numeric variable, I just chose value
+# as.data.frame() is important. The previous commands store the object as a tibble. reshape only works with data.frames.
+mydata.agg <- reshape(as.data.frame(mydata.agg),
+direction = "long",
+idvar = "Period",
+varying = colnames(mydata.agg)[-1],
+v.names = "value",
+times = c("Agriculture","Self Employment","Employee","Farming","Trade","Professional","Govenment","retired"))
+# Rather than use 0, 1 in the graph, change the labels to something meaningful
+mydata.agg$Period <- factor(mydata.agg$Period,
+levels = c(0,1),
+labels = c("Pre","Post"))
+# This is category variable created in the reshape command, called time.
+# If you want to control the order of the categories in the graph, edit their order in levels
+mydata.agg$time <- factor(mydata.agg$time,
+levels = c("Agriculture","Self Employment","Employee","Farming","Trade","Professional","Govenment","retired"))
+# the graph
+# x = the four categories of type of work, called time because of the reshape command
+# y = the variable to plot, value
+# group, fill = split the bars by Period, and color them in different colors
+# stat_summary = use a bar chart, place them next to each other (dodge), and give some function to y (doesn't matter which)
+# xlab, ylab, controls titles of x axis and y axis
+ggplot(mydata.agg, aes(x = time, y = value, group = Period, fill = Period)) +
+stat_summary(geom = "bar", position = "dodge", fun.y = sum) +
+xlab("Type of Work") +
+ylab("N")
+summary(data4$time_weighted_eucldist)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(haven)
+library(carData)
+library(car)
+library(foreign)
+library(dplyr)
+library(ggplot2)
+#Loading Data
+data4 <- read_stata("paper4.dta")
+attach(data4)
+# Defining Functions
+sum_s <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+summary(data4$time_weighted_eucldist)
+View(data4)
+View(data4)
+summary(data4$rain_sd)
+?for
+f
+part_I(data4$agriculture_top)
+part_I(data4$selfemployment_top)
+part_I(data4$employee_top)
+part_I(data4$time_eucldist_bu)
+part_I(data4$time_eucldist_rw)
+part_I(data4$ageyr)
+part_I(data4$female)
+part_I(data4$head)
+part_I(data4$married)
+part_I(data4$district_population_pc)
+part_I(data4$rain_sd)
+# Defining Functions
+part_I <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(mean(na.omit(x)))))
+}
+part_I(data4$agriculture_top)
+part_I(data4$selfemployment_top)
+part_I(data4$employee_top)
+part_I(data4$time_eucldist_bu)
+part_I(data4$time_eucldist_rw)
+part_I(data4$ageyr)
+part_I(data4$female)
+part_I(data4$head)
+part_I(data4$married)
+part_I(data4$district_population_pc)
+part_I(data4$rain_sd)
+install.packages('psych')
+library(psych)
+describe(data4)
+describe(data4)
+?lag()
+?&&
+?&
+# Playing with data
+sum_s(data4)
+summary(data4)
+sd(data4$agriculture_top)
+summary(data4$time_weighted_eucldist)
+sum_s(data4$time)
+summary(data4$rain_sd)
+barplot(height = data4['ward'])
+counts <- table(data4['ward'])
+barplot(counts, main="wardNum", ylab="Frequency")
+newdata <- subset(mydata, age >= 20 | age < 10,
+select=c(ID, Weight))
+part_I(data4$agriculture_top)
+part_I(data4$selfemployment_top)
+part_I(data4$employee_top)
+part_I(data4$time_eucldist_bu)
+part_I(data4$time_eucldist_rw)
+part_I(data4$ageyr)
+part_I(data4$female)
+part_I(data4$head)
+part_I(data4$married)
+part_I(data4$district_population_pc)
+part_I(data4$rain_sd)
+library(TeachingDemos)
+txtStart("Replication Study")
+#Replication study
+#Libraries
+library(haven)
+library(carData)
+library(car)
+library(foreign)
+library(dplyr)
+library(ggplot2)
+#Loading Data
+data4 <- read_stata("paper4.dta")
+attach(data4)
+summary(data4)
+install.packages("psych")
+describe(data4)
+library(carData)
+library(car)
+library(foreign)
+library(dplyr)
+library(ggplot2)
+library(psych)
+#Loading Data
+data4 <- read_stata("paper4.dta")
+attach(data4)
+# Defining Functions
+part_I <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(mean(na.omit(x)))))
+}
+sum_s <- function(x) {
+return(c((length(na.omit(x))) ,
+(sd(na.omit(x)))
+(summary(na.omit(x)))))
+}
+regr_s <- function(x) {
+return(c((x),
+(summary(x)),
+(lenght(x$fitted.values)),
+(x$coefficients)))
+}
+describe(data4)
+barplot(height = data4['ward'])
+barplot(counts, main="wardNum", ylab="Frequency")
+newdata <- subset(mydata, age >= 20 | age < 10,
+select=c(ID, Weight))
+part_I(data4$agriculture_top)
+counts <- table(data4['ward'])
+#Libraries
+pkgs <- c('haven', 'dplyr', 'car', 'foreign', 'ggplot2', 'psych')
+install.packages(pkgs)
+library(pkgs)

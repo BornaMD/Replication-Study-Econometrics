@@ -1,0 +1,33 @@
+rm(list=ls())
+library(TeachingDemos)
+txtStart("Homework 11.txt")
+# Name: Borná Djavdan 
+# ANR: 749817
+# Group: 2EBE-ES-01
+setwd('C:/Users/Gebruiker/Documents/Study/Semester 3/Econometrics for ECO/R Files/R Data')
+library(haven)
+library(AER)
+library(car)
+data<-read_stata("~/Study/Semester 3/Econometrics for ECO/R Files/R Data/fertility.dta")
+attach(data)
+#3a
+reg1 <- lm(burundi ~ educ + age + agesq)
+reg1
+100*-0.090575
+#3b
+reg2 <- lm(educ ~ frsthalf + age + agesq)
+reg2
+
+#3c
+reg3 <- ivreg(children ~ age + agesq + educ | age + agesq+ frsthalf)
+reg3
+
+#3d
+reg4 <- lm(children ~ educ + age + agesq + electric + tv +bicycle)
+reg4
+
+reg5 <- ivreg(children ~ age + agesq + electric + tv +bicycle + educ | age + agesq+ electric + tv +bicycle+ frsthalf)
+reg5
+
+detach(data)
+txtStop()

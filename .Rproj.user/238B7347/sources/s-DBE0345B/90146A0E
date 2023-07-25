@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544364507375.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2061723856",
+    "id" : "90146A0E",
+    "lastKnownWriteTime" : 1544372186,
+    "last_content_update" : 1544372186825,
+    "path" : "~/Study/Semester 3/Econometrics for ECO/Replication/New R Sript Replication Study.R",
+    "project_path" : "New R Sript Replication Study.R",
+    "properties" : {
+        "cursorPosition" : "137,12",
+        "scrollLine" : "110",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

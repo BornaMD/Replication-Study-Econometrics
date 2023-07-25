@@ -1,0 +1,4 @@
+txttxttxttxttxt> pkgs <- c("haven", "dplyr", "car", "foreign", "ggplot2", "psych", 
+txttxttxttxttxt+ "summarytools", "stargazer")
+txttxttxttxttxt> install.packages(pkgs)
+Error in install.packages : Updating loaded packages
